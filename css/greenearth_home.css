@@ -10,14 +10,13 @@ body{
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    background-color: antiquewhite;
 }
 img{
     width: 100%;
 }
 .container{
     float: none;
-    width: 1440px;
+    width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,4 +94,144 @@ img{
     background-color: #65A0C0;
     padding: 10px 20px;
     text-decoration: none;
+    transition: 400ms;
 }
+.banner-1 a:hover{
+    background-color: chartreuse;
+}
+.main-background{
+    width: 100%;
+    float: none;
+    padding-top: 10px;
+    /*background-image: url("../imgs/imgs_home/Mask Group 8@2x.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;*/
+}
+.list-product{
+    width: 100%;
+    float: left;
+}
+.product{
+    width: 33.33%;
+    float: left;
+    padding: 20px 60px;
+}
+.main-background h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 56px;
+    color: #73585A;
+}
+.product h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid black;
+}
+.product p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.product a{
+    color: #E4737A;
+    text-decoration: none;
+    line-height: 2.0;
+}
+.product a:hover{
+    text-decoration: underline;
+}
+.product span{
+
+}
+.introduce{
+    width: 100%;
+    float: none;
+}
+.introduce-1-text{
+    float: left;
+    width: 30%;
+    padding: 30px 56px;
+    position: relative;
+}
+.introduce-1-img{
+    float: left;
+    width: 70%;
+    padding: 30px 60px;
+}
+.introduce-1-text h2{
+    color: #73585A;
+    font-size: 30px;
+    font-weight: 400;
+}
+.introduce-1-text p{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 54px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border-top: 1px solid;
+}
+.introduce-1-text a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F2F2E8;
+    transition: 300ms;
+}
+.introduce-1-text a:hover{
+    text-decoration: underline;
+}
+.introduce-1-text span{
+    background-color: #97C482;
+    position: absolute;
+    top: 329px;
+    left: 69px;
+    padding: 5px 10px;
+}
+.introduce-2{
+    width: 100%;
+    float: none;
+    padding-top: 30px;
+}
+.introduce-2-img{
+    width: 70%;
+    float: left;
+    padding: 30px 60px;
+}
+.introduce-2-text{
+    float: right;
+    width: 30%;
+    padding: 30px 56px;
+    position: relative;
+}
+.introduce-2-text h2{
+    color: #73585A;
+    font-size: 30px;
+    font-weight: 400;
+}
+.introduce-2-text p{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 54px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border-top: 1px solid;
+}
+.introduce-2-text a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F2F2E8;
+    transition: 300ms;
+}
+.introduce-2-text a:hover{
+    text-decoration: underline;
+}
+.introduce-2-text span{
+    background-color: #97C482;
+    position: absolute;
+    bottom: -40px;
+    left: 70px;
+    padding: 5px 10px;
+}
+
