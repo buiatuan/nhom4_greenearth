@@ -129,9 +129,8 @@ header{
 .main-background{
     width: 100%;
     float: left;
-    /*background-image: url("../imgs/imgs_home/main-bacground.png");*/
+    background-image: url("../imgs/imgs_home/main-bacground.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 .main-background>h2{
