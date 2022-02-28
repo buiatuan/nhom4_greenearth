@@ -133,7 +133,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.main-background>h2{
+.main-background h2{
     font-size: 20px;
     text-indent: 50px;
     text-transform: uppercase;
@@ -465,4 +465,50 @@ nav.footer-link ul li:hover a{
 }
 .icon-link-buttom img:hover{
     transform: scale(1.5);
+}
+
+/*--CSS about us--*/
+
+.content-top .content-intro h2{
+    color: #73585A;
+    font-size:25px;
+    font-weight:400;
+    margin-left: 70px;
+    margin-top: 65px
+
+}
+.content-top .content-intro h1{
+    color: #E4737A;
+    font-size: 40px;
+    font-weight:500;
+    margin-left: 240px;
+    margin-top: 25px;
+
+}
+.content-top .content-body{
+    width: 820px;
+    margin-left: 210px;
+}
+.content-top .content-body img{
+    margin: 60px 0 0;
+}
+.content-top .content-body p{
+    float: left;
+    width: 820px;
+    line-height: 20px;
+    margin-top: 45px;
+}
+.content-top .content-body h3{
+    float:right;
+    font-size:20px;
+    font-weight:400;
+    font-style: oblique;
+    margin-top: 28px;
+    margin-right: 20px;
+}
+.background img{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+
 }
