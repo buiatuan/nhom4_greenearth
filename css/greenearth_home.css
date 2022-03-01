@@ -512,3 +512,36 @@ nav.footer-link ul li:hover a{
     margin-left: 10px;
 
 }
+
+.content-top .content-body01{
+    width: 820px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+}
+
+.content-top .content-body01 p{
+    float: left;
+    width: 820px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+
+}
+.row {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-6 {
+    float: left;
+    width: 47%;
+    margin-top: -120px
+
+}
+.col-4 {
+    float: left;
+    width: 40%;
+    margin-left: 60px;
+    margin-top: -120px;
+}
