@@ -28,11 +28,11 @@ header{
     height: 60px;
     float: left;
     background-color: #FFFFFF;
-    /*border-bottom: 0.5px solid #A0A0A0;*/
 }
 .top-link{
     width: 100%;
     float: left;
+    border-bottom: 1px solid #FCF8ED;
 }
 .logo{
     max-width: 30%;
@@ -67,11 +67,17 @@ header{
 .main-menu li:hover>a{
     color: #E48288;
 }
+.main-menu li:hover{
+    background-color: #f3f0f0;
+    transition: 300ms;
+}
 .sub-menu{
-    width: 130px;
+    width: 100%;
     position: absolute;
     list-style: none;
     background-color: #FFFFFF;
+    box-shadow: 0 0 2px 1px #e4e7e8;
+    transition: 500ms;
     left: 0;
     display: none;
 }
@@ -81,6 +87,7 @@ header{
 }
 .main-menu li:hover .sub-menu{
     display: block;
+    transition-delay: 500ms;
 }
 .main{
     width: 100%;
@@ -133,7 +140,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.main-background>h2{
+.main-background h2{
     font-size: 20px;
     text-indent: 50px;
     text-transform: uppercase;
@@ -458,11 +465,97 @@ nav.footer-link ul li:hover a{
     width: 35%;
     float: left;
 }
-.icon-link-buttom img{
+.icon-link-buttom a{
+    width: 25%;
+    height: 15px;
+}
+.icon-link-buttom i{
     width: 20%;
     margin-right: 5px;
+    margin-top: 6px;
     transition: 400ms;
+    color: #34466D;
+    font-size: 25px;
 }
-.icon-link-buttom img:hover{
+.icon-link-buttom i:hover{
     transform: scale(1.5);
+}
+
+/*--CSS about us--*/
+
+.content-top .content-intro h2{
+    color: #73585A;
+    font-size:25px;
+    font-weight:400;
+    margin-left: 70px;
+    margin-top: 65px
+
+}
+.content-top .content-intro h1{
+    color: #E4737A;
+    font-size: 40px;
+    font-weight:500;
+    margin-left: 240px;
+    margin-top: 25px;
+
+}
+.content-top .content-body{
+    width: 820px;
+    margin-left: 210px;
+}
+.content-top .content-body img{
+    margin: 60px 0 0;
+}
+.content-top .content-body p{
+    float: left;
+    width: 820px;
+    line-height: 20px;
+    margin-top: 45px;
+}
+.content-top .content-body h3{
+    float:right;
+    font-size:20px;
+    font-weight:400;
+    font-style: oblique;
+    margin-top: 28px;
+    margin-right: 20px;
+}
+.background img{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+.content-top .content-body01{
+    width: 820px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+}
+
+.content-top .content-body01 p{
+    float: left;
+    width: 820px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+
+}
+.row {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-6 {
+    float: left;
+    width: 47%;
+    margin-top: -120px
+
+}
+.col-4 {
+    float: left;
+    width: 40%;
+    margin-left: 60px;
+    margin-top: -120px;
 }
