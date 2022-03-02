@@ -109,10 +109,11 @@ header{
     float: left;
     margin-left: 100px;
     margin-top: -350px;
+    font-family: 'Cormorant Garamond', serif;
 }
 .content-silde h3{
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .content-silde h2{
     font-size: 45px;
@@ -126,6 +127,7 @@ header{
     padding: 5px 10px;
     width: 120px;
     transition: 400ms;
+    border-radius: 7%;
 }
 .content-silde p a{
     color: #DEE4D8;
@@ -142,7 +144,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.main-background h2{
+.main-background>h2{
     font-size: 20px;
     text-indent: 50px;
     text-transform: uppercase;
@@ -206,6 +208,7 @@ header{
     font-weight: 400;
     padding-bottom: 20px;
     border-bottom: 1px solid;
+    font-family: 'Cormorant Garamond', serif;
 }
 .introduce-1-text p{
     padding: 15px 0 15px 10px;
@@ -215,6 +218,8 @@ header{
 .introduce-1-text span{
     padding: 5px 20px;
     background: #97C482;
+    margin-left: 10px;
+    border-radius: 5%
 }
 .introduce-1-text span a{
     color: #F2F2E8;
@@ -240,6 +245,7 @@ header{
     font-weight: 400;
     padding-bottom: 20px;
     border-bottom: 1px solid;
+    font-family: 'Cormorant Garamond', serif;
 }
 .introduce-2-text p{
     padding: 15px 0 15px 10px;
@@ -249,6 +255,8 @@ header{
 .introduce-2-text span{
     padding: 5px 20px;
     background: #97C482;
+    margin-left: 10px;
+    border-radius: 5%
 }
 .introduce-2-text span a{
     color: #F2F2E8;
@@ -510,7 +518,7 @@ nav.footer-link ul li:hover a{
 }
 .content-top .content-body p{
     float: left;
-    width: 820px;
+    width: 100%;
     line-height: 20px;
     margin-top: 45px;
 }
@@ -530,14 +538,14 @@ nav.footer-link ul li:hover a{
 }
 
 .content-top .content-body01{
-    width: 820px;
+    width: 100%;
     margin-left: 190px;
     margin-bottom: 30px;
 }
 
 .content-top .content-body01 p{
     float: left;
-    width: 820px;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 40px;
