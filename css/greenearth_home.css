@@ -28,6 +28,8 @@ header{
     height: 60px;
     float: left;
     background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
 }
 .top-link{
     width: 100%;
