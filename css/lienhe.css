@@ -189,92 +189,77 @@ nav.footer-link ul li:hover a{
 .icon-link-buttom img:hover{
     transform: scale(1.5);
 }
-.content-top .content-intro h2{
+.lh-title{
+    padding-left: 70px;
+    margin-top: 100px;
     color: #73585A;
-    font-size:25px;
-    font-weight:400;
-    margin-left: 70px;
-    margin-top: 65px
-
+    font-size: 30px;
 }
-.content-top .content-intro h1{
+.main .container{
+    background-image: url("../web/imgs/lh_bgr.png");
+}
+.lh-content{
     color: #E4737A;
-    font-size: 35px;
+    font-size: 60px;
     font-weight: 700;
     font-family: 'Cormorant Garamond', serif;
-    margin-left: 240px;
-    margin-top: 25px;
+    padding-left:350px;
+    margin-top: 65px;
 }
-.content-top .content-body{
-    width: 820px;
-    margin-left: 210px;
+.lh-form{
+    width: 100%;
+    padding-left: 300px;
 }
-.content-top .content-body img{
-    margin: 60px 0 0;
+.lh-row{
+    width: 100%;
 }
-.content-top .content-body p{
+.lh-form p{
+    font-size: 15px ;
+}
+.lh-item{
+    width: 50%;
     float: left;
-    width: 820px;
-    line-height: 20px;
-    margin-top: 45px;
+    margin-top: 50px;
 }
-.content-top .content-body h3{
-    float:right;
-    font-size:20px;
-    font-weight:400;
-    font-style: oblique;
-    margin-top: 28px;
-    margin-right: 20px;
+.lh-left{
+    padding-right: 30px;
 }
-.background img{
-    float: left;
-    width: 200px;
-    margin-left: 10px;
-
+.lh-right{
+    padding-left: 30px;
 }
-
-.content-top .content-body01{
-    width: 820px;
-    margin-left: 190px;
-    margin-bottom: 30px;
+.lh-description {
+    width: 100%;
+    margin-top: 280px;
 }
-
-.content-top .content-body01 p{
-    float: left;
-    width: 352px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 30px;
+.lh-description textarea{
+    width: 100%;
+    padding-left: 10px;
 }
-.row {
-    content: "";
-    clear: both;
-    display: table;
+.lh-itembox input{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
 }
-
-.col-6 {
-    float: left;
-    width: 47%;
-    margin-top: -120px;
-    margin-right: 40px;
-
+.lh-file{
+    margin-top: 20px;
 }
-.col-4 {
-    float: left;
-    width: 40%;
-    margin-left: 60px;
-    margin-top: -120px;
+.lh-add button{
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    background-color: #97C482;
+    color: #EEEEEE;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'Cormorant Garamond', serif;
 }
-.col-6 img{
-    width: 414px;
+.lh-add button:hover{
+    background-color: #E48288;
 }
-.col-4 img{
-    width: 352px;
+.uli li{
+    list-style: none;
 }
-.item img{
-    width: 840px;
+.uli ul{
+    margin-top: 30px;
 }
-.background img{
-    margin-top: -30px;
-}
-
