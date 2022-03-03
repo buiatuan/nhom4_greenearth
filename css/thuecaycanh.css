@@ -188,8 +188,9 @@ nav.footer-link ul li:hover a{
 }
 .content-top .content-intro h1{
     color: #E4737A;
-    font-size: 40px;
-    font-weight:500;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
     margin-left: 240px;
     margin-top: 25px;
 
