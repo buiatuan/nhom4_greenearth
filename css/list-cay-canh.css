@@ -5,20 +5,20 @@
     padding: 50px;
     float: left;
 }
+
 .new-product{
     position: relative;
     float: left;
     width: 100%;
 }
 .new-product h2{
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 35px;
+    font-weight: 600;
     position: absolute;
-    left: 10px;
+    left: 40px;
     top: -100px;
 }
 .new-product h2>a{
-    text-decoration: none;
     color: #A4CB92;
     transition: 300ms;
 }
@@ -31,12 +31,11 @@
     margin-top: 50px;
 }
 .trending-product h2{
-    font-size: 30px;
-    font-weight: 400;
-    padding: 25px 0;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 25px 35px;
 }
 .trending-product h2>a{
-    text-decoration: none;
     color: #4899d5;
 }
 .trending-product h2:hover>a{
@@ -48,17 +47,12 @@
     margin-top: 50px;
 }
 .sale-product h2{
-    font-size: 30px;
-    font-weight: 400;
-    padding: 25px 0;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 25px 35px;
 }
 .sale-product h2>a{
-    text-decoration: none;
     color: #E48288;
-    transition: 300ms;
-}
-.sale-product h2:hover>a{
-    color: #d55159;
 }
 .product .icon{
     width: 100%;
@@ -67,7 +61,6 @@
 }
 .product h4>a{
     color: #73585a;
-    text-decoration: none;
 }
 .product p{
     padding: 5px 0;
@@ -83,8 +76,7 @@
     color: #70DAE1;
 }
 .icon h3{
-    /*font-family: 'Cormorant Garamond', serif;*/
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     right: 5px;
     bottom: 10px;
