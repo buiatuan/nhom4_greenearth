@@ -188,9 +188,10 @@ nav.footer-link ul li:hover a{
     background-image: url("../web/imgs/lh_bgr.png");
 }
 .lh-content{
-    color: #F7C9CD;
+    color: #E4737A;
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
     padding-left:300px;
     margin-top: 65px;
 }
@@ -239,6 +240,11 @@ nav.footer-link ul li:hover a{
     background-color: #97C482;
     color: #EEEEEE;
     border: 0;
+    border-radius: 3px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.lh-add button:hover{
+    background-color: #E48288;
 }
 .uli li{
     list-style: none;
