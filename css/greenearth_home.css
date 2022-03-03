@@ -186,7 +186,7 @@ header{
     padding: 15px 0;
     float: left;
 }
-.product a{
+.product span a{
     color: red;
     text-decoration: none;
     font-family: 'Cormorant Garamond', serif;
