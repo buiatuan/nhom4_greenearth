@@ -67,6 +67,7 @@
 }
 .product h4>a{
     color: #73585a;
+    text-decoration: none;
 }
 .product p{
     padding: 5px 0;
@@ -82,7 +83,8 @@
     color: #70DAE1;
 }
 .icon h3{
-    font-size: 25px;
+    /*font-family: 'Cormorant Garamond', serif;*/
+    font-size: 30px;
     position: absolute;
     right: 5px;
     bottom: 10px;

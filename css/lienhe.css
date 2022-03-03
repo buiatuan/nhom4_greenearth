@@ -24,11 +24,13 @@ img{
     width: 100%;
 }
 header{
-    width: 100%;
+    /*width: 100%;*/
+    font-family: 'Cormorant Garamond', serif;
     height: 60px;
     float: left;
     background-color: #FFFFFF;
-    /*border-bottom: 0.5px solid #A0A0A0;*/
+    position: fixed;
+    top: 0;
 }
 .top-link{
     width: 100%;
@@ -54,24 +56,32 @@ header{
 }
 .main-menu>li{
     float: left;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
     line-height: 60px;
     position: relative;
 }
 .main-menu li a{
     color: #584345;
     text-decoration: none;
+    font-size: 18px;
     transition: 400ms;
+    font-weight: 700;
 }
 .main-menu li:hover>a{
     color: #E48288;
 }
+.main-menu li:hover{
+    background-color: #f3f0f0;
+    transition: 300ms;
+}
 .sub-menu{
-    width: 130px;
+    width: 100%;
     position: absolute;
     list-style: none;
     background-color: #FFFFFF;
+    box-shadow: 0 0 2px 1px #e4e7e8;
+    transition: 500ms;
     left: 0;
     display: none;
 }
@@ -81,6 +91,7 @@ header{
 }
 .main-menu li:hover .sub-menu{
     display: block;
+    transition-delay: 500ms;
 }
 .footer{
     margin-top: 90px;
@@ -179,10 +190,11 @@ nav.footer-link ul li:hover a{
     transform: scale(1.5);
 }
 .lh-title{
-    padding-left: 70px;
-    margin-top: 60px;
     color: #73585A;
-    font-size: 30px;
+    font-size:25px;
+    font-weight:400;
+    margin-left: 70px;
+    margin-top: 100px
 }
 .main .container{
     background-image: url("../web/imgs/lh_bgr.png");
@@ -192,7 +204,7 @@ nav.footer-link ul li:hover a{
     font-size: 60px;
     font-weight: 700;
     font-family: 'Cormorant Garamond', serif;
-    padding-left:300px;
+    padding-left:350px;
     margin-top: 65px;
 }
 .lh-form{
