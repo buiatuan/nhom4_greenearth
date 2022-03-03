@@ -514,13 +514,14 @@ nav.footer-link ul li:hover a{
     font-size:25px;
     font-weight:400;
     margin-left: 70px;
-    margin-top: 65px
+    margin-top: 100px
 
 }
 .content-top .content-intro h1{
     color: #E4737A;
     font-size: 40px;
-    font-weight:500;
+    font-weight:700;
+    font-family: 'Cormorant Garamond', serif;
     margin-left: 240px;
     margin-top: 25px;
 
@@ -584,4 +585,7 @@ nav.footer-link ul li:hover a{
     width: 40%;
     margin-left: 60px;
     margin-top: -120px;
+}
+.background img{
+    margin-top: -30px;
 }
