@@ -25,6 +25,7 @@ img{
 }
 header{
     /*width: 100%;*/
+    font-family: 'Cormorant Garamond', serif;
     height: 60px;
     float: left;
     background-color: #FFFFFF;
@@ -34,7 +35,6 @@ header{
 .top-link{
     width: 100%;
     float: left;
-    border-bottom: 1px solid #FCF8ED;
 }
 .logo{
     max-width: 30%;
@@ -56,15 +56,17 @@ header{
 }
 .main-menu>li{
     float: left;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
     line-height: 60px;
     position: relative;
 }
 .main-menu li a{
     color: #584345;
     text-decoration: none;
+    font-size: 18px;
     transition: 400ms;
+    font-weight: 700;
 }
 .main-menu li:hover>a{
     color: #E48288;
@@ -127,14 +129,14 @@ header{
     padding: 5px 10px;
     width: 120px;
     transition: 400ms;
-    border-radius: 7%;
+    border-radius: 5px;
 }
 .content-silde p a{
     color: #DEE4D8;
     text-decoration: none;
 }
 .content-silde p:hover{
-    background-color: #76ad62;
+    background-color: #43839b;
     text-decoration: underline;
 }
 .main-background{
@@ -143,15 +145,17 @@ header{
     background-image: url("../imgs/imgs_home/main-bacground.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 50px;
 }
 .main-background>h2{
     font-size: 20px;
     text-indent: 50px;
     text-transform: uppercase;
     line-height: 1.5;
-    margin-top: 25px;
+    margin-top: -15px;
     margin-bottom: 15px;
     color: #73585A;
+
 }
 .list-product{
     width: 100%;
@@ -182,9 +186,12 @@ header{
     padding: 15px 0;
     float: left;
 }
-.product a{
+.product span a{
     color: red;
     text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 700;
 }
 .product a:hover{
     text-decoration: underline;
@@ -219,11 +226,15 @@ header{
     padding: 5px 20px;
     background: #97C482;
     margin-left: 10px;
-    border-radius: 5%
+    border-radius: 5px;
 }
 .introduce-1-text span a{
+    font-family: 'Cormorant Garamond', serif;
     color: #F2F2E8;
     text-decoration: none;
+}
+.introduce-1-text span:hover{
+    background-color: #8cb778;
 }
 .introduce-1-img{
     width: 70%;
@@ -256,9 +267,13 @@ header{
     padding: 5px 20px;
     background: #97C482;
     margin-left: 10px;
-    border-radius: 5%
+    border-radius: 5px;
+}
+.introduce-2-text span:hover{
+    background-color: #8cb778;
 }
 .introduce-2-text span a{
+    font-family: 'Cormorant Garamond', serif;
     color: #F2F2E8;
     text-decoration: none;
 }
@@ -377,6 +392,7 @@ header{
     background-color: #A4CB92;
     color: #F4F9F2;
     transition: 400ms;
+    border-radius: 5px;
 }
 .sumbit-share button:hover{
     background-color: #81ad6a;
@@ -442,7 +458,7 @@ header{
     border: none;
     background-color: #E48288;
     color: #FCF8ED;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 .form-footer button:hover{
     background-color: #d57076;
