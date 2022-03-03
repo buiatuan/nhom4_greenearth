@@ -24,11 +24,13 @@ img{
     width: 100%;
 }
 header{
-    width: 100%;
+    /*width: 100%;*/
+    font-family: 'Cormorant Garamond', serif;
     height: 60px;
     float: left;
     background-color: #FFFFFF;
-    /*border-bottom: 0.5px solid #A0A0A0;*/
+    position: fixed;
+    top: 0;
 }
 .top-link{
     width: 100%;
@@ -54,24 +56,32 @@ header{
 }
 .main-menu>li{
     float: left;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
     line-height: 60px;
     position: relative;
 }
 .main-menu li a{
     color: #584345;
     text-decoration: none;
+    font-size: 18px;
     transition: 400ms;
+    font-weight: 700;
 }
 .main-menu li:hover>a{
     color: #E48288;
 }
+.main-menu li:hover{
+    background-color: #f3f0f0;
+    transition: 300ms;
+}
 .sub-menu{
-    width: 130px;
+    width: 100%;
     position: absolute;
     list-style: none;
     background-color: #FFFFFF;
+    box-shadow: 0 0 2px 1px #e4e7e8;
+    transition: 500ms;
     left: 0;
     display: none;
 }
@@ -81,9 +91,10 @@ header{
 }
 .main-menu li:hover .sub-menu{
     display: block;
+    transition-delay: 500ms;
 }
 .main{
-    width: 100%;
+    /*width: 100%;*/
     float: left;
     background-color: #FFFFFF;
 }
@@ -100,10 +111,11 @@ header{
     float: left;
     margin-left: 100px;
     margin-top: -350px;
+    font-family: 'Cormorant Garamond', serif;
 }
 .content-silde h3{
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .content-silde h2{
     font-size: 45px;
@@ -117,13 +129,14 @@ header{
     padding: 5px 10px;
     width: 120px;
     transition: 400ms;
+    border-radius: 5px;
 }
 .content-silde p a{
     color: #DEE4D8;
     text-decoration: none;
 }
 .content-silde p:hover{
-    background-color: #76ad62;
+    background-color: #43839b;
     text-decoration: underline;
 }
 .main-background{
@@ -132,15 +145,17 @@ header{
     background-image: url("../imgs/imgs_home/main-bacground.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 50px;
 }
-.main-background h2{
+.main-background>h2{
     font-size: 20px;
     text-indent: 50px;
     text-transform: uppercase;
     line-height: 1.5;
-    margin-top: 25px;
+    margin-top: -15px;
     margin-bottom: 15px;
     color: #73585A;
+
 }
 .list-product{
     width: 100%;
@@ -171,9 +186,12 @@ header{
     padding: 15px 0;
     float: left;
 }
-.product a{
+.product span a{
     color: red;
     text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 700;
 }
 .product a:hover{
     text-decoration: underline;
@@ -197,6 +215,7 @@ header{
     font-weight: 400;
     padding-bottom: 20px;
     border-bottom: 1px solid;
+    font-family: 'Cormorant Garamond', serif;
 }
 .introduce-1-text p{
     padding: 15px 0 15px 10px;
@@ -206,10 +225,16 @@ header{
 .introduce-1-text span{
     padding: 5px 20px;
     background: #97C482;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 .introduce-1-text span a{
+    font-family: 'Cormorant Garamond', serif;
     color: #F2F2E8;
     text-decoration: none;
+}
+.introduce-1-text span:hover{
+    background-color: #8cb778;
 }
 .introduce-1-img{
     width: 70%;
@@ -231,6 +256,7 @@ header{
     font-weight: 400;
     padding-bottom: 20px;
     border-bottom: 1px solid;
+    font-family: 'Cormorant Garamond', serif;
 }
 .introduce-2-text p{
     padding: 15px 0 15px 10px;
@@ -240,8 +266,14 @@ header{
 .introduce-2-text span{
     padding: 5px 20px;
     background: #97C482;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.introduce-2-text span:hover{
+    background-color: #8cb778;
 }
 .introduce-2-text span a{
+    font-family: 'Cormorant Garamond', serif;
     color: #F2F2E8;
     text-decoration: none;
 }
@@ -360,6 +392,7 @@ header{
     background-color: #A4CB92;
     color: #F4F9F2;
     transition: 400ms;
+    border-radius: 5px;
 }
 .sumbit-share button:hover{
     background-color: #81ad6a;
@@ -425,7 +458,7 @@ header{
     border: none;
     background-color: #E48288;
     color: #FCF8ED;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 .form-footer button:hover{
     background-color: #d57076;
@@ -458,12 +491,19 @@ nav.footer-link ul li:hover a{
     width: 35%;
     float: left;
 }
-.icon-link-buttom img{
+.icon-link-buttom a{
+    width: 25%;
+    height: 15px;
+}
+.icon-link-buttom i{
     width: 20%;
     margin-right: 5px;
+    margin-top: 6px;
     transition: 400ms;
+    color: #34466D;
+    font-size: 25px;
 }
-.icon-link-buttom img:hover{
+.icon-link-buttom i:hover{
     transform: scale(1.5);
 }
 
@@ -474,19 +514,20 @@ nav.footer-link ul li:hover a{
     font-size:25px;
     font-weight:400;
     margin-left: 70px;
-    margin-top: 65px
+    margin-top: 100px
 
 }
 .content-top .content-intro h1{
     color: #E4737A;
     font-size: 40px;
-    font-weight:500;
+    font-weight:700;
+    font-family: 'Cormorant Garamond', serif;
     margin-left: 240px;
     margin-top: 25px;
 
 }
 .content-top .content-body{
-    width: 820px;
+    /*width: 820px;*/
     margin-left: 210px;
 }
 .content-top .content-body img{
@@ -494,7 +535,7 @@ nav.footer-link ul li:hover a{
 }
 .content-top .content-body p{
     float: left;
-    width: 820px;
+    /*width: 820px;*/
     line-height: 20px;
     margin-top: 45px;
 }
@@ -516,14 +557,14 @@ nav.footer-link ul li:hover a{
 /*--CSS kientrucxanh--*/
 
 .content-top .content-body01{
-    width: 820px;
+    /*width: 100%;*/
     margin-left: 190px;
     margin-bottom: 30px;
 }
 
 .content-top .content-body01 p{
     float: left;
-    width: 820px;
+    /*width: 820px;*/
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 40px;
@@ -570,12 +611,12 @@ nav.footer-link ul li:hover a{
 
 .content-body02 .col-8 {
     width: 50%;
-    margin-top: -120px;
+    margin-top: -80px;
 
 }
 .content-body02 .col-3 {
     width: 35%;
-    margin-top: -120px;
+    margin-top: -80px;
 }
 
 .content-body02 .col-3 .line ul{
@@ -704,6 +745,7 @@ nav.footer-link ul li:hover a{
     font-size: 23px;
     margin-right: 110px;
     margin-top: 35px;
+    font-style: italic;
 }
 
 .col-2 .a .button{
@@ -719,10 +761,12 @@ nav.footer-link ul li:hover a{
     font-size: 23px;
     margin-top: 35px;
     margin-right: -65px;
+    font-style: italic;
 }
 .col-2 .c .button{
     float: right;
     font-family: 'Cormorant Garamond', sans-serif;
+    font-style: italic;
     border-radius: 5px;
     background-color: #97C482; /* Green */
     color: white;
@@ -734,3 +778,5 @@ nav.footer-link ul li:hover a{
     margin-top: 35px;
     margin-right: -6px;
 }
+
+
