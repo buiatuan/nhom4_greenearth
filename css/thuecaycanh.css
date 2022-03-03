@@ -264,4 +264,7 @@ nav.footer-link ul li:hover a{
 .item img{
     width: 840px;
 }
+.background img{
+    margin-top: -30px;
+}
 
