@@ -1,0 +1,95 @@
+.main-background{
+    margin-top: 150px;
+}
+.list-product{
+    padding: 50px;
+    float: left;
+}
+
+.new-product{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.new-product h2{
+    font-size: 35px;
+    font-weight: 600;
+    position: absolute;
+    left: 40px;
+    top: -100px;
+}
+.new-product h2>a{
+    color: #A4CB92;
+    transition: 300ms;
+}
+.new-product h2:hover>a{
+    color: #85a474;
+}
+.trending-product{
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+.trending-product h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 25px 35px;
+}
+.trending-product h2>a{
+    color: #4899d5;
+}
+.trending-product h2:hover>a{
+    color: #1a6891;
+}
+.sale-product{
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+.sale-product h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 25px 35px;
+}
+.sale-product h2>a{
+    color: #E48288;
+}
+.product .icon{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.product h4>a{
+    color: #73585a;
+}
+.product p{
+    padding: 5px 0;
+}
+.product p i{
+    padding-left: 5px;
+    color: #73585A;
+}
+.icon .icon-color i{
+    color: #FFBC7D;
+}
+.icon-color .fa-droplet{
+    color: #70DAE1;
+}
+.icon h3{
+    font-size: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+.sale-product .product .icon h3{
+    text-decoration: line-through;
+}
+.product h4{
+    position: relative;
+}
+.product .new-cost{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #E48288;
+}
