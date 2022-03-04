@@ -190,11 +190,10 @@ nav.footer-link ul li:hover a{
     transform: scale(1.5);
 }
 .lh-title{
+    padding-left: 70px;
+    margin-top: 60px;
     color: #73585A;
-    font-size:25px;
-    font-weight:400;
-    margin-left: 70px;
-    margin-top: 100px
+    font-size: 30px;
 }
 .main .container{
     background-image: url("../web/imgs/lh_bgr.png");
