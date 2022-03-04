@@ -571,6 +571,18 @@ nav.footer-link ul li:hover a{
     line-height: 40px;
 }
 
+.content-top .a h1{
+    float: left;
+    color: #E4737A;
+    font-size: 40px;
+    font-weight:700;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    margin-left: 60px;
+    margin-top: 25px;
+
+}
+
 .row {
     content: "";
     clear: both;
