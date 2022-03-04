@@ -11,6 +11,7 @@ body{
     text-align: left;
     color: #73585A;
 }
+
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -26,6 +27,7 @@ img{
 header{
     /*width: 100%;*/
     font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
     height: 60px;
     float: left;
     background-color: #FFFFFF;
@@ -57,16 +59,17 @@ header{
 .main-menu>li{
     float: left;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 20px;
     line-height: 60px;
     position: relative;
+    text-align: center;
 }
 .main-menu li a{
     color: #584345;
     text-decoration: none;
     font-size: 17px;
     transition: 400ms;
-    font-weight: 600;
+    font-weight: 400;
 }
 .main-menu li:hover>a{
     color: #E48288;
@@ -87,7 +90,7 @@ header{
 }
 .sub-menu li{
     line-height: 45px;
-    padding-left: 30px;
+    text-align: center;
 }
 .main-menu li:hover .sub-menu{
     display: block;
@@ -130,6 +133,7 @@ header{
     width: 120px;
     transition: 400ms;
     border-radius: 5px;
+    text-align: center;
 }
 .content-silde p a{
     color: #DEE4D8;
@@ -182,7 +186,7 @@ header{
 }
 .product p{
     width: 100%;
-    line-height: 1.5;
+    line-height: 24px;
     padding: 15px 0;
     float: left;
 }
@@ -216,20 +220,23 @@ header{
     padding-bottom: 20px;
     border-bottom: 1px solid;
     font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
 }
 .introduce-1-text p{
     padding: 15px 0 15px 10px;
     letter-spacing: 0.5px;
-    line-height: 1.2;
+    line-height: 24px;
 }
 .introduce-1-text span{
-    padding: 5px 20px;
+    padding: 8px 25px;
     background: #97C482;
     margin-left: 10px;
     border-radius: 5px;
 }
 .introduce-1-text span a{
     font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 16px;
     color: #F2F2E8;
     text-decoration: none;
 }
@@ -257,14 +264,15 @@ header{
     padding-bottom: 20px;
     border-bottom: 1px solid;
     font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
 }
 .introduce-2-text p{
     padding: 15px 0 15px 10px;
     letter-spacing: 0.5px;
-    line-height: 1.2;
+    line-height: 24px;
 }
 .introduce-2-text span{
-    padding: 5px 20px;
+    padding: 8px 25px;
     background: #97C482;
     margin-left: 10px;
     border-radius: 5px;
@@ -274,6 +282,8 @@ header{
 }
 .introduce-2-text span a{
     font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 16px;
     color: #F2F2E8;
     text-decoration: none;
 }
@@ -295,16 +305,19 @@ header{
     width: 100%;
     padding: 30px;
 }
-.main-contact .contact .contact-address{
+.contact-address{
     width: 60%;
     background-color: #F9FAF7;
     position: absolute;
     top: 184px;
     left: 114px;
     height: 40%;
+    border-radius: 15px;
 }
 .contact-address h3{
-    padding-top: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    padding-top: 28px;
     font-size: 25px;
     font-weight: 400;
     padding-left: 20px;
@@ -336,10 +349,13 @@ header{
     top: 184px;
     left: 114px;
     height: 40%;
+    border-radius: 15px;
 }
 .about-us-introduce h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
     padding-top: 25px;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 400;
     padding-left: 20px;
     color: #718A66;
@@ -364,14 +380,16 @@ header{
     padding: 10px 20px;
 }
 .share-with-friend .content-share h2{
+    font-style: italic;
     text-transform: uppercase;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     padding: 30px;
     color: #E48288;
 }
 .share-with-friend .content-share p{
     padding: 10px 30px 30px;
+    line-height: 24px;
 }
 .sumbit-share{
     width: 50%;
@@ -505,6 +523,26 @@ nav.footer-link ul li:hover a{
 }
 .icon-link-buttom i:hover{
     transform: scale(1.5);
+}
+#buttom-fix{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+#buttom-fix li{
+    list-style: none;
+    margin-top: 18px;
+    box-shadow: 0 2px 2px 1px #34466D;
+    border-radius: 50%;
+
+}
+#buttom-fix i{
+    font-size: 40px;
+    color: #8dba30;
+    padding: 2px;
+}
+#buttom-fix li i:hover{
+    color: #64811a;
 }
 
 /*--CSS about us--*/

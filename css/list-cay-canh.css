@@ -12,7 +12,7 @@
     width: 100%;
 }
 .new-product h2{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
     position: absolute;
     left: 40px;
@@ -21,6 +21,9 @@
 .new-product h2>a{
     color: #A4CB92;
     transition: 300ms;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
 }
 .new-product h2:hover>a{
     color: #85a474;
@@ -31,12 +34,15 @@
     margin-top: 50px;
 }
 .trending-product h2{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
     padding: 25px 35px;
 }
 .trending-product h2>a{
+    text-decoration: none;
     color: #4899d5;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
 }
 .trending-product h2:hover>a{
     color: #1a6891;
@@ -47,12 +53,15 @@
     margin-top: 50px;
 }
 .sale-product h2{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
     padding: 25px 35px;
 }
 .sale-product h2>a{
+    text-decoration: none;
     color: #E48288;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
 }
 .product .icon{
     width: 100%;
@@ -60,6 +69,9 @@
     position: relative;
 }
 .product h4>a{
+    text-decoration: none;
+    line-height: 24px;
+    letter-spacing: 3px;
     color: #73585a;
 }
 .product p{
