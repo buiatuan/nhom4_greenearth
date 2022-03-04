@@ -87,7 +87,7 @@ header{
 }
 .sub-menu li{
     line-height: 45px;
-    padding-left: 30px;
+
 }
 .main-menu li:hover .sub-menu{
     display: block;
