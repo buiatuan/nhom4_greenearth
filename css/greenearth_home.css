@@ -532,14 +532,13 @@ nav.footer-link ul li:hover a{
 #buttom-fix li{
     list-style: none;
     margin-top: 18px;
-    box-shadow: 0 2px 2px 1px #34466D;
-    border-radius: 50%;
-
 }
 #buttom-fix i{
     font-size: 40px;
     color: #8dba30;
     padding: 2px;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px 1px #34466D;
 }
 #buttom-fix li i:hover{
     color: #64811a;

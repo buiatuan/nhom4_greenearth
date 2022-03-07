@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./vendors/bootstrap3.4.1/css/"/>
     <link rel="stylesheet" href="./vendors/font_awesome/css/all.css"/>
     <link rel="stylesheet" href="css/greenearth_home.css"/>
-    <script type="text/javascript" src="js/greenearth.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/greenearth.js"></script>
 
 </head>
 <body>
@@ -166,7 +167,7 @@
         <div class="background-footer">
             <div class="footer-centrer">
                 <div class="footer-center-top">
-                    <h2>Bản Tin Xanh</h2>
+                    <h2 id="buttom-fix-color">Bản Tin Xanh</h2>
                     <p>Đăng ký nhận thông tin từ everGreen để luôn cập nhật những thông tin mới nhất về Workshops Chăm sóc cây và các Chương trình Khuyến mãi.</p>
                     <form class="form-footer" method="get" action="#">
                         <input type="email" name="email" placeholder="Địa chỉ Email của Bạn">
@@ -195,9 +196,45 @@
     </div>
 </footer>
     <ul id="buttom-fix">
-        <li><a href="https://www.messenger.com/" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a></li>
-        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="https://web.telegram.org/" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+        <li><a href="https://www.messenger.com/" target="_blank"><i id="page-1" class="fa-brands fa-facebook-messenger"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><i id="page-2" class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://web.telegram.org/" target="_blank"><i id="page-3" class="fa-brands fa-telegram"></i></a></li>
     </ul>
+<!--<script type="text/javascript">
+    var r = document.getElementById("page-1");
+    var a = document.getElementById("page-2");
+    var b = document.getElementById("page-3");
+    var f = false;
+    setInterval(function (){
+        // r.style.backgroundColor = "#3a143e";
+        if (f == false){
+            r.style.color = "#64811a";
+            f = true;
+        }else{
+            r.style.color = "red";
+            f = false;
+        }
+    },500);
+    setInterval(function (){
+        // r.style.backgroundColor = "#3a143e";
+        if (f == false){
+            a.style.color = "#64811a";
+            f = true;
+        }else{
+            a.style.color = "red";
+            f = false;
+        }
+    },600);
+    setInterval(function (){
+        // r.style.backgroundColor = "#3a143e";
+        if (f == false){
+            b.style.color = "#64811a";
+            f = true;
+        }else{
+            b.style.color = "red";
+            f = false;
+        }
+    },700);
+</script>-->
 </body>
 </html>
