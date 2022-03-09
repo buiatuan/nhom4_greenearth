@@ -606,7 +606,10 @@ nav.footer-link ul li:hover a{
     margin-bottom: 20px;
     line-height: 40px;
 }
-
+.a h1{
+    font-size: 40px;
+    color: #E48288;
+}
 .row {
     content: "";
     clear: both;
