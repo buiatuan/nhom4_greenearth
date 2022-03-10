@@ -42,6 +42,13 @@
 .view-imgs img.active{
     display: block;
 }
+.img-select .active{
+    background: #63b063;
+    color: #FFFFFF;
+}
+.img-select li{
+    border-radius: 5px;
+}
 .comformation-product{
     width: 35%;
     float: left;
@@ -91,12 +98,7 @@
     background-color: #FFFDF8;
     border: 1px solid #E0D6BC;
 }
-.select-pots li:first-child{
-    background-color: #A4CB92;
-}
-.select-pots li:first-child{
-    color: #FAFCF9;
-}
+
 .select-pots li{
     text-decoration: none;
     color: #73585A;
@@ -146,7 +148,7 @@
     text-align: center;
     padding: 10px 0;
     background-color: #A4CB92;
-    border-radius: 1%;
+    border-radius: 5px;
 }
 .form-box:hover{
     background-color: #79af5e;
