@@ -25,11 +25,16 @@
 .list-imgs ul li img{
     width: 50%;
 }
-.view-imgs{
+#view-imgs{
+    height: 550px;
     width: 35%;
     float: left;
     margin-top: 50px;
     margin-left: -40px;
+    overflow: hidden;
+}
+#view-imgs img{
+
 }
 .comformation-product{
     width: 35%;
@@ -84,10 +89,10 @@
 .select-pots li:first-child{
     background-color: #A4CB92;
 }
-.select-pots li:first-child>a{
+.select-pots li:first-child{
     color: #FAFCF9;
 }
-.select-pots li a{
+.select-pots li{
     text-decoration: none;
     color: #73585A;
 }
@@ -95,7 +100,7 @@
     background-color: #A4CB92;
     transition: 300ms;
 }
-.select-pots li:hover>a{
+.select-pots li:hover{
     color: #FAFCF9;
 }
 .select-size{
