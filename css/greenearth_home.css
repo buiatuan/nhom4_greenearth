@@ -589,3 +589,24 @@ nav.footer-link ul li:hover a{
 .background img{
     margin-top: -30px;
 }
+#slideshow {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.slide-wrapper {
+    width: 3600px;
+    -webkit-animation: slide 14s ease infinite;
+}
+.slide {
+    float: left;
+    width: 1200px;
+    height: 530px
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1200px;}
+    50% {margin-left: -1200px;}
+    60% {margin-left: -2400px;}
+    80% {margin-left: -2400px;}
+}
