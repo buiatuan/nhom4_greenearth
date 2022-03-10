@@ -5,200 +5,242 @@
     <title>Green Earth</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Luxurious+Roman&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./vendors/bootstrap3.4.1/css/"/>
     <link rel="stylesheet" href="./vendors/font_awesome/css/all.css"/>
     <link rel="stylesheet" href="css/greenearth_home.css"/>
-    <script type="text/javascript" src="js/greenearth.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/greenearth.js"></script>
 
 </head>
 <body>
-    <header class="section header">
-        <div class="container">
-            <nav class="top-link">
-                <div class="logo">
-                    <a href="https://nhom4-green-earth.herokuapp.com/greenearth.html"> <img src="imgs/imgs_home/logo.png" alt="Green earth"/></a>
+<header class="section header">
+    <div class="container">
+        <nav class="top-link">
+            <div class="logo">
+                <a href="https://nhom4-green-earth.herokuapp.com/greenearth.html"> <img src="imgs/imgs_home/logo.png" alt="Green earth"/></a>
+            </div>
+            <div class="menu">
+                <ul class="main-menu">
+                    <li><a href="https://nhom4-green-earth.herokuapp.com/gioithieugreenearth.html">Giới thiệu</a></li>
+                    <li><a href="https://nhom4-green-earth.herokuapp.com/list-cay-canh.html">Sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/search-new-product.html">Mẫu mới</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/search-trending-product.html">Trending</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/search-sale-product.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li style="width: 120px; text-align: center"><a href="https://nhom4-green-earth.herokuapp.com/kientrucxanh.html">Dịch vụ</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/kientrucxanh.html">Kiến trúc</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/thuecaycanh.html">Thuê cây</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://nhom4-green-earth.herokuapp.com/chamsoccay.html">Yêu cây và chăm cây</a></li>
+                    <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<section class="section main">
+    <div class="container">
+        <div class="content-top">
+            <div class="silde-img">
+                <div id="slideshow">
+                    <div class="slide-wrapper">
+                        <div class="slide"><img src="imgs/imgs_home/topbanner_01_1_2x.png"></div>
+                        <div class="slide"><img src="imgs/imgs_home/topbanner_02_1_2x.jpg"></div>
+                        <div class="slide"><img src="imgs/imgs_home/topbanner_03_1_2x.jpg"></div>
+                    </div>
                 </div>
-                <div class="menu">
-                    <ul class="main-menu">
-                        <li><a href="https://nhom4-green-earth.herokuapp.com/gioithieugreenearth.html">Giới thiệu</a></li>
-                        <li><a href="https://nhom4-green-earth.herokuapp.com/list-cay-canh.html">Sản phẩm</a>
-                            <ul class="sub-menu">
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/seach-new-product.html">Mẫu mới</a></li>
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/seach-trending-product.html">Trending</a></li>
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/seach-sale-product.html">Sale</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="https://nhom4-green-earth.herokuapp.com/kientrucxanh.html">Dịch vụ</a>
-                            <ul class="sub-menu">
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/kientrucxanh.html">Kiến trúc</a></li>
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/thuecaycanh.html">Thuê cây</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Yêu cây và chăm cây</a></li>
-                        <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html">Liên hệ</a></li>
-                    </ul>
-                </div>
-            </nav>
+            </div>
+            <div class="content-silde">
+                <h3>Cùng Bạn Tạo</h3>
+                <h2>Phong Cách Xanh</h2>
+                <p><a href="#">Xem Thêm </a></p>
+            </div>
         </div>
-    </header>
-    <section class="section main">
-        <div class="container">
-            <div class="content-top">
-                <div class="silde-img">
-                    <div id="slideshow">
-                        <div class="slide-wrapper">
-                            <div class="slide"><img src="imgs/imgs_home/topbanner_01_1_2x.png"></div>
-                            <div class="slide"><img src="imgs/imgs_home/topbanner_02_1_2x.jpg"></div>
-                            <div class="slide"><img src="imgs/imgs_home/topbanner_03_1_2x.jpg"></div>
-                        </div>
-                    </div>
+        <div class="main-background">
+            <h2>top sản phẩm nổi bật</h2>
+            <div class="list-product">
+                <div class="product">
+                    <img src="imgs/imgs_home/kimtien.png" alt="kim tiền"/>
+                    <h4>kim tiền</h4>
+                    <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
+                    <span><a href="#">Chi tiết  &gt;</a></span>
                 </div>
-                <div class="content-silde">
-                    <h3>Cùng Bạn Tạo</h3>
-                    <h2>Phong Cách Xanh</h2>
-                    <p><a href="#">Xem Thêm </a></p>
+                <div class="product">
+                    <img src="imgs/imgs_home/bangcanh.png" alt="bàng cảnh"/>
+                    <h4>bàng cảnh</h4>
+                    <p>Cây Bàng Singapore phù hợp làm cây văn phòng, trang trí nội thất, cây trong nhà. Vị trí thích hợp để cây ở sảnh khách sạn, quầy thu ngân…</p>
+                    <span><a href="#">Chi tiết &gt;</a></span>
+                </div>
+                <div class="product">
+                    <img src="imgs/imgs_home/luoiho.png" alt="lưỡi hổ"/>
+                    <h4>lưỡi hổ</h4>
+                    <p>Cây Lưỡi Hổ có tác dụng thanh lọc không khí,
+                        hấp thụ chất gây ô nhiễm, cải thiện không gian sống, vào ban đêm cây nhả oxi. Cây phù hợp để bàn, phòng ngủ...</p>
+                    <span><a href="#">Chi tiết &gt;</a></span>
+                </div>
+                <div class="product">
+                    <img src="imgs/imgs_home/kimtien.png" alt="kim tiền"/>
+                    <h4>kim tiền</h4>
+                    <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
+                    <span><a href="#">Chi tiết &gt;</a></span>
+                </div>
+                <div class="product">
+                    <img src="imgs/imgs_home/luoiho.png" alt="kim tiền"/>
+                    <h4>lưỡi hổ</h4>
+                    <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
+                    <span><a href="#">Chi tiết &gt;</a></span>
+                </div>
+                <div class="product">
+                    <img src="imgs/imgs_home/bangcanh.png" alt="kim tiền"/>
+                    <h4>bàng cảnh</h4>
+                    <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
+                    <span><a href="#">Chi tiết &gt;</a></span>
                 </div>
             </div>
-            <div class="main-background">
-                <h2>top sản phẩm nổi bật</h2>
-                <div class="list-product">
-                    <div class="product">
-                        <img src="imgs/imgs_home/kimtien.png" alt="kim tiền"/>
-                        <h4>kim tiền</h4>
-                        <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
-                        <span><a href="#">Chi tiết  &gt;</a></span>
+            <div class="introduce">
+                <div class="introduce-1">
+                    <div class="introduce-1-text">
+                        <h2>Hướng Dẫn chăm Cây theo Mùa</h2>
+                        <p>Chúng tôi hiểu rằng có sân vườn đẹp là chưa đủ. Vấn đề khó khăn đối với người mới chơi cũng như các gia chủ bận rộn với công việc là làm thế nào để duy trì “khu vườn” luôn xanh tươi.</p>
+                        <span><a href="#">Tìm Hiểu</a> </span>
                     </div>
-                    <div class="product">
-                        <img src="imgs/imgs_home/bangcanh.png" alt="bàng cảnh"/>
-                        <h4>bàng cảnh</h4>
-                        <p>Cây Bàng Singapore phù hợp làm cây văn phòng, trang trí nội thất, cây trong nhà. Vị trí thích hợp để cây ở sảnh khách sạn, quầy thu ngân…</p>
-                        <span><a href="#">Chi tiết &gt;</a></span>
-                    </div>
-                    <div class="product">
-                        <img src="imgs/imgs_home/luoiho.png" alt="lưỡi hổ"/>
-                        <h4>lưỡi hổ</h4>
-                        <p>Cây Lưỡi Hổ có tác dụng thanh lọc không khí,
-                            hấp thụ chất gây ô nhiễm, cải thiện không gian sống, vào ban đêm cây nhả oxi. Cây phù hợp để bàn, phòng ngủ...</p>
-                        <span><a href="#">Chi tiết &gt;</a></span>
-                    </div>
-                    <div class="product">
-                        <img src="imgs/imgs_home/kimtien.png" alt="kim tiền"/>
-                        <h4>kim tiền</h4>
-                        <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
-                        <span><a href="#">Chi tiết &gt;</a></span>
-                    </div>
-                    <div class="product">
-                        <img src="imgs/imgs_home/luoiho.png" alt="kim tiền"/>
-                        <h4>kim tiền</h4>
-                        <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
-                        <span><a href="#">Chi tiết &gt;</a></span>
-                    </div>
-                    <div class="product">
-                        <img src="imgs/imgs_home/bangcanh.png" alt="kim tiền"/>
-                        <h4>kim tiền</h4>
-                        <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
-                        <span><a href="#">Chi tiết &gt;</a></span>
+                    <div class="introduce-1-img">
+                        <img src="imgs/imgs_home/introduct_1.png" alt="introduce">
                     </div>
                 </div>
-                <div class="introduce">
-                    <div class="introduce-1">
-                        <div class="introduce-1-text">
-                            <h2>Hướng Dẫn chăm Cây theo Mùa</h2>
-                            <p>Chúng tôi hiểu rằng có sân vườn đẹp là chưa đủ. Vấn đề khó khăn đối với người mới chơi cũng như các gia chủ bận rộn với công việc là làm thế nào để duy trì “khu vườn” luôn xanh tươi.</p>
-                            <span><a href="#">Tìm Hiểu</a> </span>
-                        </div>
-                        <div class="introduce-1-img">
-                            <img src="imgs/imgs_home/introduct_1.png" alt="introduce">
-                        </div>
+                <div class="introduce-2">
+                    <div class="introduce-2-text">
+                        <h2>Trải nghiệm Thực tế tại Vườn ươm</h2>
+                        <p>Nếu bạn đang lên kế hoạch cho việc trồng cây
+                            nhưng vẫn còn nhiều băn khoăn? Trải nghiệm vườn ươm là nơi dành bạn. Đây không chỉ là nơi bạn tìm hiểu về các giống cây phù hợp mà còn giúp bạn tạm rời xa thành phố ồn ào...</p>
+                        <span><a href="#">Tìm Hiểu</a> </span>
                     </div>
-                    <div class="introduce-2">
-                        <div class="introduce-2-text">
-                            <h2>Trải nghiệm Thực tế tại Vườn ươm</h2>
-                            <p>Nếu bạn đang lên kế hoạch cho việc trồng cây
-                                nhưng vẫn còn nhiều băn khoăn? Trải nghiệm vườn ươm là nơi dành bạn. Đây không chỉ là nơi bạn tìm hiểu về các giống cây phù hợp mà còn giúp bạn tạm rời xa thành phố ồn ào...</p>
-                            <span><a href="#">Tìm Hiểu</a> </span>
-                        </div>
-                        <div class="introduce-2-img">
-                            <img src="imgs/imgs_home/introduct_2.png" alt="introduce">
-                        </div>
-                    </div>
-                </div>
-                <div class="main-contact">
-                    <div class="contact">
-                        <img src="imgs/imgs_home/contact_1.png" alt="contact"/>
-                        <div class="contact-address">
-                            <h3>Liên Hệ</h3>
-                            <h5>Cửa Hàng</h5>
-                            <p>Số 01A Lê Đại Hành, Phường Bùi Thị Xuân, Quận Hai Bà Trưng, HN</p>
-                            <h5>Vườn Ươm</h5>
-                            <p>Số 06 Plaza Mall, Phường Cổ Linh, Quận Long Biên, HN</p>
-                        </div>
-                    </div>
-                    <div class="about-us">
-                        <img src="imgs/imgs_home/contact_2.png" alt="about us"/>
-                        <div class="about-us-introduce">
-                            <h3>Về Chúng Tôi</h3>
-                            <p>everGreen <b>chuyên bán  cho thuê cây văn phòng, cửa hàng nhỏ, siêu thị, quán cà phê, hội chợ, triển lãm...</b></p>
-                            <p>Dựa trên tiêu chí lấy khách hàng làm trung tâm. EverGreen luôn cố gắng đem lại cho khách hàng dịch vụ tốt nhất với chi phí phù hợp nhất. </p>
-                        </div>
+                    <div class="introduce-2-img">
+                        <img src="imgs/imgs_home/introduct_2.png" alt="introduce">
                     </div>
                 </div>
             </div>
-            <div class="share-with-friend">
-                <div class="content-share">
-                    <h2>Chia Sẻ với Bạn và nhận Voucher 100k</h2>
-                    <p>Chia sẻ với bạn bè Voucher Giảm giá 20% với mỗi đơn hàng trên 200 và nhận ngay Voucher trị giá 100k cho lần mua sắm tiếp theo.</p>
+            <div class="main-contact">
+                <div class="contact">
+                    <img src="imgs/imgs_home/contact_1.png" alt="contact"/>
+                    <div class="contact-address">
+                        <h3>Liên Hệ</h3>
+                        <h5>Cửa Hàng</h5>
+                        <p>Số 01A Lê Đại Hành, Phường Bùi Thị Xuân, Quận Hai Bà Trưng, HN</p>
+                        <h5>Vườn Ươm</h5>
+                        <p>Số 06 Plaza Mall, Phường Cổ Linh, Quận Long Biên, HN</p>
+                    </div>
                 </div>
-                <div class="sumbit-share">
-                    <form class="form-list" method="get" action="#">
-                        <input class="form-control" type="text" name="fullnam" placeholder="Họ và Tên của Bạn">
-                        <input class="form-control" type="email" name="email" placeholder="Địa chỉ Email của Bạn">
-                        <button class="form-control" type="button">Chia Sẻ với Bạn bè</button>
+                <div class="about-us">
+                    <img src="imgs/imgs_home/contact_2.png" alt="about us"/>
+                    <div class="about-us-introduce">
+                        <h3>Về Chúng Tôi</h3>
+                        <p>everGreen <b>chuyên bán  cho thuê cây văn phòng, cửa hàng nhỏ, siêu thị, quán cà phê, hội chợ, triển lãm...</b></p>
+                        <p>Dựa trên tiêu chí lấy khách hàng làm trung tâm. EverGreen luôn cố gắng đem lại cho khách hàng dịch vụ tốt nhất với chi phí phù hợp nhất. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="share-with-friend">
+            <div class="content-share">
+                <h2>Chia Sẻ với Bạn và nhận Voucher 100k</h2>
+                <p>Chia sẻ với bạn bè Voucher Giảm giá 20% với mỗi đơn hàng trên 200 và nhận ngay Voucher trị giá 100k cho lần mua sắm tiếp theo.</p>
+            </div>
+            <div class="sumbit-share">
+                <form class="form-list" method="get" action="#">
+                    <input class="form-control" type="text" name="fullnam" placeholder="Họ và Tên của Bạn">
+                    <input class="form-control" type="email" name="email" placeholder="Địa chỉ Email của Bạn">
+                    <button class="form-control" type="button">Chia Sẻ với Bạn bè</button>
+                </form>
+            </div>
+        </div>
+        <div class="silde-img-buttom">
+            <img src="imgs/imgs_home/silde_img_buttom_1.png" alt="slide img"/>
+            <img src="imgs/imgs_home/silde_img_buttom_2.png" alt="slide img"/>
+            <img src="imgs/imgs_home/silde_img_buttom_3.png" alt="slide img"/>
+            <img src="imgs/imgs_home/contact_2.png" alt="slide img"/>
+        </div>
+    </div>
+</section>
+<footer class="section footer">
+    <div class="container">
+        <div class="background-footer">
+            <div class="footer-centrer">
+                <div class="footer-center-top">
+                    <h2 id="buttom-fix-color">Bản Tin Xanh</h2>
+                    <p>Đăng ký nhận thông tin từ everGreen để luôn cập nhật những thông tin mới nhất về Workshops Chăm sóc cây và các Chương trình Khuyến mãi.</p>
+                    <form class="form-footer" method="get" action="#">
+                        <input type="email" name="email" placeholder="Địa chỉ Email của Bạn">
+                        <button type="button">Đăng ký</button>
                     </form>
                 </div>
-            </div>
-            <div class="silde-img-buttom">
-                <img src="imgs/imgs_home/silde_img_buttom_1.png" alt="slide img"/>
-                <img src="imgs/imgs_home/silde_img_buttom_2.png" alt="slide img"/>
-                <img src="imgs/imgs_home/silde_img_buttom_3.png" alt="slide img"/>
-                <img src="imgs/imgs_home/contact_2.png" alt="slide img"/>
-            </div>
-        </div>
-    </section>
-    <footer class="section footer">
-        <div class="container">
-            <div class="background-footer">
-                <div class="footer-centrer">
-                    <div class="footer-center-top">
-                        <h2>Bản Tin Xanh</h2>
-                        <p>Đăng ký nhận thông tin từ everGreen để luôn cập nhật những thông tin mới nhất về Workshops Chăm sóc cây và các Chương trình Khuyến mãi.</p>
-                        <form class="form-footer" method="get" action="#">
-                            <input type="email" name="email" placeholder="Địa chỉ Email của Bạn">
-                            <button type="button">Đăng ký</button>
-                        </form>
-                    </div>
-                    <div class="footer-center-buttom">
-                        <nav class="footer-link">
-                            <ul>
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/gioithieugreenearth.html">Về chúng tôi</a></li>
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/list-cay-canh.html"> Sản phẩm</a></li>
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html" > Workshops</a></li>
-                                <li><a href="#"> Tuyển dụng</a></li>
-                                <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html"> Liên hệ</a></li>
-                            </ul>
-                        </nav>
-                        <div class="icon-link-buttom">
-                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-google"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
+                <div class="footer-center-buttom">
+                    <nav class="footer-link">
+                        <ul>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/gioithieugreenearth.html">Về chúng tôi</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/list-cay-canh.html"> Sản phẩm</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html" > Workshops</a></li>
+                            <li><a href="#"> Tuyển dụng</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html"> Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                    <div class="icon-link-buttom">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+    <ul id="buttom-fix">
+        <li><a href="https://www.messenger.com/" target="_blank"><i id="page-1" class="fa-brands fa-facebook-messenger"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><i id="page-2" class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://web.telegram.org/" target="_blank"><i id="page-3" class="fa-brands fa-telegram"></i></a></li>
+    </ul>
+<!--<script type="text/javascript">
+    var r = document.getElementById("page-1");
+    var a = document.getElementById("page-2");
+    var b = document.getElementById("page-3");
+    var f = false;
+    setInterval(function (){
+        // r.style.backgroundColor = "#3a143e";
+        if (f == false){
+            r.style.color = "#64811a";
+            f = true;
+        }else{
+            r.style.color = "red";
+            f = false;
+        }
+    },500);
+    setInterval(function (){
+        // r.style.backgroundColor = "#3a143e";
+        if (f == false){
+            a.style.color = "#64811a";
+            f = true;
+        }else{
+            a.style.color = "red";
+            f = false;
+        }
+    },600);
+    setInterval(function (){
+        // r.style.backgroundColor = "#3a143e";
+        if (f == false){
+            b.style.color = "#64811a";
+            f = true;
+        }else{
+            b.style.color = "red";
+            f = false;
+        }
+    },700);
+</script>-->
 </body>
 </html>
