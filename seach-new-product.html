@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm kiếm cây cảnh mới</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Luxurious+Roman&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./vendors/bootstrap3.4.1/css/"/>
+    <link rel="stylesheet" href="./vendors/font_awesome/css/all.css"/>
+    <link rel="stylesheet" href="css/greenearth_home.css"/>
+    <link rel="stylesheet" href="css/list-cay-canh.css"/>
+    <link rel="stylesheet" href="css/seach-new-product.css"/>
+
+</head>
+<body>
+<header class="section header">
+    <div class="container">
+        <nav class="top-link">
+            <div class="logo">
+                <a href="https://nhom4-green-earth.herokuapp.com/greenearth.html"> <img src="imgs/imgs_home/logo.png" alt="Green earth"/></a>
+            </div>
+            <div class="menu">
+                <ul class="main-menu">
+                    <li><a href="https://nhom4-green-earth.herokuapp.com/gioithieugreenearth.html">Giới thiệu</a></li>
+                    <li><a href="https://nhom4-green-earth.herokuapp.com/list-cay-canh.html">Sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/seach-new-product.html">Mẫu mới</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/seach-trending-product.html">Trending</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/seach-sale-product.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://nhom4-green-earth.herokuapp.com/kientrucxanh.html">Dịch vụ</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/kientrucxanh.html">Kiến trúc</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/thuecaycanh.html">Thuê cây</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Yêu cây và chăm cây</a></li>
+                    <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<section class="section main">
+    <div class="container">
+        <div class="main-background">
+            <div class="seach-new-product">
+                <h2><a href="#">Mẫu mới nhất</a></h2>
+                <div class="choses-infomation">
+                    <span onclick="showSeach()">chọn thông tin</span> <i onclick="showSeach()" class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <div id="show-seach-product">
+                <h3>Bộ lọc sản phẩm</h3>
+                <form class="form-main" action="#" method="post">
+                    <div class="form-box cost">
+                            <h4>Chi phí</h4>
+                            <ul>
+                                <li><label><input type="checkbox" name="comfirm"/>Thấp đến cao</label></li>
+                                <li><label><input type="checkbox" name="comfirm"/>Mới nhập</label></li>
+                                <li><label><input type="checkbox" name="comfirm"/>Cao xuống thấp</label></li>
+                                <li><label><input type="checkbox" name="comfirm"/>Khuyến mại</label></li>
+                            </ul>
+                    </div>
+                    <div class="form-box environment">
+                            <h4>Môi trường</h4>
+                            <ul>
+                                <li><label><input type="checkbox" name="comfirm"/>Trong nhà</label></li>
+                                <li><label><input type="checkbox" name="comfirm"/>Ngoài trới</label></li>
+                            </ul>
+                    </div>
+                    <div class="form-box location">
+                            <h4>Vị trí</h4>
+                            <ul>
+                                <li><label><input type="checkbox" name="comfirm"/>Đặt bàn</label></li>
+                                <li><label><input type="checkbox" name="comfirm"/>Đặt sàn</label></li>
+                                <li><label><input type="checkbox" name="comfirm"/>Vườn treo</label></li>
+                            </ul>
+                    </div>
+                    <div class="form-box light">
+                            <h4>Ánh sáng</h4>
+                            <ul>
+                                <li><label><input type="checkbox" name="comfirm"/>Ưa sáng</label></li>
+                                <li><label><input type="checkbox" name="comfirm"/>Bóng dâm</label></li>
+                            </ul>
+                    </div>
+                    <div class="form-box view">
+                            <h4>Cảnh quan</h4>
+                            <ul>
+                                <li><label><input type="checkbox" name="comfirm"/>Có hoa</label></li>
+                                <li><label><input type="checkbox" name="comfirm"/>Bóng mát</label></li>
+                            </ul>
+                    </div>
+                    <span><button type="reset">Xóa chọn</button> </span>
+                </form>
+            </div>
+            <div class="list-product">
+                <div class="new-product">
+                    <div class="product">
+                        <img src="imgs/imgs_product/kimtien.png" alt="kim tiền"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">kim tiền</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color"> <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/bangcanh.png" alt="bàng cảnh"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">bàng cảnh</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/de-vuong.jpg" alt="lưỡi hổ"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">Đế Vương</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_home/kimtien.png" alt="kim tiền"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">kim tiền</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/luoiho.png" alt="kim tiền"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">lưỡi hổ</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/hong-mon.jpg" alt="kim tiền"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">Hồng môn</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/co-guong.jpg" alt="kim tiền"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">cỏ gương</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/cam-cu-la-tim.jpg" alt="bàng cảnh"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">cẩm cù là tím</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/sendapreta.jpg" alt="lưỡi hổ"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">sen đá preta</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng: <span class="icon-color"> <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/dong.jpg" alt="kim tiền"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">dong</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/trau-ba-nam.jpg" alt="kim tiền"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">trầu bà nam</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm: <span class="icon-color"> <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="imgs/imgs_product/set-newbie-01.jpg" alt="kim tiền"/>
+                        <h4><a href="https://nhom4-green-earth.herokuapp.com/product-luoi-ho.html">set newbie 01</a></h4>
+                        <div class="icon">
+                            <p>Ánh sáng:<span class="icon-color">  <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+                            <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+                            <h3>21.000<sup>đ</sup></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="section footer">
+    <div class="container">
+        <div class="background-footer">
+            <div class="footer-centrer">
+                <div class="footer-center-top">
+                    <h2>Bản Tin Xanh</h2>
+                    <p>Đăng ký nhận thông tin từ everGreen để luôn cập nhật những thông tin mới nhất về Workshops Chăm sóc cây và các Chương trình Khuyến mãi.</p>
+                    <form class="form-footer" method="get" action="#">
+                        <input type="email" name="email" placeholder="Địa chỉ Email của Bạn">
+                        <button type="button">Đăng ký</button>
+                    </form>
+                </div>
+                <div class="footer-center-buttom">
+                    <nav class="footer-link">
+                        <ul>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/gioithieugreenearth.html">Về chúng tôi</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/list-cay-canh.html"> Sản phẩm</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html" > Workshops</a></li>
+                            <li><a href="#"> Tuyển dụng</a></li>
+                            <li><a href="https://nhom4-green-earth.herokuapp.com/lienhe.html"> Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                    <div class="icon-link-buttom">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+    function showSeach(){
+        var s = document.getElementById("show-seach-product");
+        if(s.style.display=="none"){
+            s.style.display = "block";
+        }else {
+            s.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>

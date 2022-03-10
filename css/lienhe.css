@@ -87,7 +87,7 @@ header{
 }
 .sub-menu li{
     line-height: 45px;
-    text-align: center;
+    padding-left: 30px;
 }
 .main-menu li:hover .sub-menu{
     display: block;
@@ -190,10 +190,11 @@ nav.footer-link ul li:hover a{
     transform: scale(1.5);
 }
 .lh-title{
-    padding-left: 70px;
-    margin-top: 100px;
     color: #73585A;
-    font-size: 30px;
+    font-size:25px;
+    font-weight:400;
+    margin-left: 70px;
+    margin-top: 100px
 }
 .main .container{
     background-image: url("../web/imgs/lh_bgr.png");
@@ -214,7 +215,7 @@ nav.footer-link ul li:hover a{
     width: 100%;
 }
 .lh-form p{
-    font-size: 15px ;
+     font-size: 15px ;
 }
 .lh-item{
     width: 50%;

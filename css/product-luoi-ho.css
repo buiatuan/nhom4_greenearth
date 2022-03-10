@@ -90,7 +90,6 @@
     margin: 0 9px;
     background-color: #FFFDF8;
     border: 1px solid #E0D6BC;
-    border-radius: 5px;
 }
 .select-pots li:first-child{
     background-color: #A4CB92;
@@ -127,7 +126,7 @@
 }
 .select-size li a{
     text-decoration: none;
-    color: #75646c;
+    color: #73585A;
 }
 .select-size li:first-child p{
     border-bottom: 1px solid #E0D6BC;
@@ -147,7 +146,7 @@
     text-align: center;
     padding: 10px 0;
     background-color: #A4CB92;
-    border-radius: 5px;
+    border-radius: 1%;
 }
 .form-box:hover{
     background-color: #79af5e;
@@ -164,10 +163,8 @@
     margin-top: 50px;
 }
 .tutorial-tree h3{
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 35px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 300;
     padding-bottom: 20px;
 }
 .steps{
