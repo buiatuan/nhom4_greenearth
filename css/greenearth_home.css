@@ -33,6 +33,7 @@ header{
     background-color: #FFFFFF;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 .top-link{
     width: 100%;
@@ -685,7 +686,7 @@ nav.footer-link ul li:hover a{
     width: 370px;
     margin-top: 50px;
     margin-left: -100px;
-    list-style-image: url("../imgs/imgs_chamsoccay/bullist@2x.png");
+    list-style-image: url("../imgs/imgs_yeucayvachamcay/bullist@2x.png");
 }
 
 .content-body02 .col-3 li{
@@ -736,7 +737,7 @@ nav.footer-link ul li:hover a{
     border-top: 1px solid #8AA8A1;
     width: 330px;
     margin-top: 20px;
-    list-style-image: url("../imgs/imgs_chamsoccay/bullist@2x.png");
+    list-style-image: url("../imgs/imgs_yeucayvachamcay/bullist@2x.png");
 }
 
 .content-body02 .col-2 .a li{
@@ -770,7 +771,7 @@ nav.footer-link ul li:hover a{
     border-top: 1px solid #8AA8A1;
     width: 330px;
     margin-top: 20px;
-    list-style-image: url("../imgs/imgs_chamsoccay/bullist@2x.png");
+    list-style-image: url("../imgs/imgs_yeucayvachamcay/bullist@2x.png");
 }
 
 .content-body02 .col-2 .c li{
